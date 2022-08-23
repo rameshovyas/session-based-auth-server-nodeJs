@@ -1,0 +1,19 @@
+
+### User Sign up
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "username": "ramesh",
+    "password": "password"
+}
+
+### User Login
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "ramesh",
+    "password": "password"
+}
+
